@@ -3,3 +3,73 @@ body {
     font-family: "Gill Sans", sans-serif;
     margin: 40px;
 }
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+h1 {
+    font-variant: small-caps;
+    font-size: 45px;
+}
+
+a {
+    text-decoration: none; 
+    color: black;
+}
+
+.heading { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.foto {
+    float: right;
+    width: 200px;
+    height: 200px;
+}
+
+.objective {
+    padding: 5px 0;
+    background-color:#F3F7A1;
+    font-size: 20px;
+}
+
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contacts > a {
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+.goal {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.projects > li > a {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 640px) {
+    .contacts, .skills {
+        display: flex;
+        flex-direction: column;
+    }
+}
