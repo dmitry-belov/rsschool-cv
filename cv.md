@@ -30,3 +30,9 @@ My experience and code examples
 * **Project 3**
 
 [link project 3](http://)
+
+### Education
+Epam Upskill Academy - 2020
+
+### Language
+English - A2 (*Elementary*)
