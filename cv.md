@@ -13,6 +13,12 @@ tel: +375*********
 
 My goal, wishes and some kind of self-presentation.
 
+### Skills
+My Skills
+
+### Experience 
+My experience and code examples
+
 * **Project 1**
 
 [link project 1](http://)
