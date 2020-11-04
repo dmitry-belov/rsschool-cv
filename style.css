@@ -1,0 +1,91 @@
+body {
+    max-width: 1024px;
+    font-family: "Gill Sans", sans-serif;
+    margin: 40px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+h1 {
+    font-variant: small-caps;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none; 
+    color: black;
+}
+
+div > img {
+    padding-right: 5px;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+}
+
+.heading { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    bottom: 40px;
+    position: relative;
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+}
+
+.objective {
+    padding: 10px 0;
+    background-color:#F3F7A1;
+    font-size: 20px;
+    width: 90%;
+}
+
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contactsTitle {
+    margin-bottom: 10px;
+}
+
+.contacts > div {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.goal {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.projects > li > a {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 640px) {
+    .contacts, .skills {
+        display: flex;
+        flex-direction: column;
+    }
+}
