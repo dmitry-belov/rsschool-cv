@@ -6,7 +6,9 @@ body {
 
 header {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 h1, h2 {
@@ -16,6 +18,7 @@ h1, h2 {
 h1 {
     font-variant: small-caps;
     font-size: 45px;
+    margin-bottom: 20px;
 }
 
 a {
@@ -23,22 +26,31 @@ a {
     color: black;
 }
 
+div > img {
+    padding-right: 5px;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+}
+
 .heading { 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
+    bottom: 40px;
+    position: relative;
 }
 
 .foto {
-    float: right;
     width: 200px;
     height: 200px;
 }
 
 .objective {
-    padding: 5px 0;
+    padding: 10px 0;
     background-color:#F3F7A1;
     font-size: 20px;
+    width: 90%;
 }
 
 .contacts {
@@ -46,13 +58,17 @@ a {
     flex-wrap: wrap;
 }
 
-.contacts > a {
+.contactsTitle {
+    margin-bottom: 10px;
+}
+
+.contacts > div {
     width: 50%;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .goal {
-    margin-top: 40px;
+    margin-top: 0;
     margin-bottom: 20px;
 }
 
